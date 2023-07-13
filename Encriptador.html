@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" >
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles_encrypter.css">
+        
+
+    </head>
+
+    <body>
+        <script src="encrypter.js"></script>
+        <header>
+            <div class="box">
+                <h1 class="imagen-alura"><a title="Alura-latam" href="https://www.aluracursos.com"><img src="Logo.png" alt="Alura-latam"></h1></a>
+                <h1 class="Titulo">Encriptador de texto</h1> 
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="Info">
+                <label for="linkedinprofile"> Bruno Morales Prado</label>
+                <input type="image" id="linkedinprofile" alt="Linked-in Profile" src="linkedin.png" onclick="Linkedin()">
+            </div>
+            <div>
+            
+                <textarea id="areadetexto" placeholder="Ingrese aquí su texto" required></textarea>
+                <textarea id="texto-encriptado" disabled></textarea>
+                
+
+            </div>
+            <div class="Note">
+                <p><b> Nota: </b> solo se permiten letras en minusculas y sin acentos  </p>
+            </div>
+
+            <div>
+                <input type="button" class="Encriptar" value="Encriptar"  onclick="encriptar()"> 
+                <input type="button" class="Desencriptar" value="Desencriptar" onclick="desencriptar()">
+                <input type="button" class="Copiar" value="Copiar" onclick="copiarAlPortapapeles()">
+            </div>
+            
+            
+               
+           
+           
+
+        </main>
+
+
+       
+
+    </body>
